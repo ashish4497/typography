@@ -57,6 +57,8 @@ table {
 
  body {
 	 line-height: 1.5;
+	 font-family: 'Martel Sans', sans-serif;
+
  }
 /* Generic class  */
 .container {
@@ -121,6 +123,7 @@ table {
 	font-size: 54px;
 	color: white;
 	margin: 20px 0;
+	font-family: 'Poppins', sans-serif;
 }
 
 .main-text {
@@ -139,6 +142,8 @@ table {
 	font-size: 32px;
 	text-transform: uppercase;
 	color: #555555;
+	padding: 0 12px;
+	font-family: 'Poppins', sans-serif;
 }
 
 .section-para {
@@ -201,6 +206,7 @@ table {
 	width:35%;
 	margin: 16px 0;
 }
+
 .flex-2 {
 	display: flex;
 	justify-content: space-evenly;
@@ -209,6 +215,9 @@ table {
 }
 
 /* section-4  */
+.sec-4 .section-para {
+	margin-bottom:40px;
+}
 .image-box {
 	padding: 20px 0;
 	width: 33%;
@@ -237,6 +246,141 @@ table {
 }
 
 /* section-5  */
-.sec-4 {
+.sec-5{
 	background-color: #f5f5f5;
+}
+
+.parent {
+	justify-content: center;
+	align-items: center;
+}
+
+.line {
+	width: 180px;
+	border: 1px solid gray;
+	margin: 3px 0;
+}
+
+.line-2{
+	width:160px;
+}
+.line-3{
+	width:140px;
+}
+.line-col{
+	flex-direction: column;
+}
+.right-line {
+	align-items:flex-end;
+}
+
+.info-section {
+	background-color: white;
+	margin: 24px 0;
+}
+.info-section {
+	padding: 33px 0;
+}
+
+.contact-form {
+	width: 48%;
+	margin-left: 2%;
+}
+
+input {
+	display: block;
+	padding: 12px 0;
+	margin: 12px 0;
+	width: 100%;
+}
+
+textarea {
+	width: 100%;
+}
+
+.form-btn {
+	padding: 14px 14px;
+	background-color: #e96b76;
+	border: none;
+	text-transform: uppercase;
+	margin: 12px 0;
+	font-size: 16px;
+}
+
+.reset-btn {
+	border: 1px solid black;
+	background: transparent;
+	font-size: 14px;
+}
+
+.social-links {
+
+	width: 50%;
+	padding: 0 50px;
+}
+
+.buttons {
+	text-align: left;
+}
+.link-icon i {
+	display:flex;
+	line-height: 1.8;
+}
+
+.address-sec {
+	display: flex;
+	font-size: 18px;
+	padding: 6px 0;
+  align-items: center;
+}
+
+.loc-icon {
+	background-color: indianred;
+	height: 40px;
+	width: 40px;
+	border-radius: 50%;
+	border-radius: 50%;
+	position: relative;
+	margin-right: 22px;
+}
+
+.link-icon {
+	display: flex;
+	flex-direction:column;
+	align-items:flex-start;
+	border-bottom: 1px solid #000;
+}
+
+.link-icon .fab {
+	font-size: 30px;
+	color: blue;
+	margin-right: 22px;
+}
+
+.no-border {
+	border:none;
+}
+
+/* footer  */
+.footer {
+	background-color: #555555;
+}
+
+.footer-links .no-border {
+	border-left:none;
+}
+
+.footer-links a {
+	text-transform: capitalize;
+	color: #7c6e6e;
+	font-size: 22px;
+	justify-content: space-around;
+	border-left: 1px solid #000;
+	padding: 0 12px;
+}
+
+.copy-right {
+	color: #7c6e6e;
+	font-size: 18px;
+	text-transform: lowercase;
 }
